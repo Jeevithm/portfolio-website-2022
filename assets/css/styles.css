@@ -718,6 +718,19 @@ body.light-theme{
   font-size: var(--small-font-size);
 }
 
+.read-more-btn{
+  font-size: var(--small-font-size);
+  color: var(--first-color);
+}
+
+.read-more-text{
+  display: none;
+}
+
+.read-more-text--show{
+  display: inline;
+}
+
 /* Swiper class */
 .swiper-pagination-bullet{
   background-color: var(--text-color-light);
@@ -725,6 +738,16 @@ body.light-theme{
 
 .swiper-pagination-bullet-active{
   background-color: var(--first-color);
+}
+
+.testimonial__date {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.testimonial__date-text {
+  font-size: var(--small-font-size);
 }
 
 /*=============== CONTACT ===============*/
