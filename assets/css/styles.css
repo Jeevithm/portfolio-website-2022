@@ -852,11 +852,6 @@ body.light-theme{
   resize: none;
 }
 
-.contact__form-send {
-  font-size: var(--small-font-size);
-  margin-bottom: 2rem;
-}
-
 .contact__form-botfield {
   display: none;
 }
