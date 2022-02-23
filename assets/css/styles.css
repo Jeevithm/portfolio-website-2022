@@ -851,6 +851,11 @@ body.light-theme{
 .contact__form-area textarea{
   resize: none;
 }
+
+.contact__form-send {
+  font-size: var(--small-font-size);
+  margin-bottom: 2rem;
+}
 /*=============== FOOTER ===============*/
 .footer{
   background-color: var(--first-color);

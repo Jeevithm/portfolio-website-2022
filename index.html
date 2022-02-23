@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <!--=============== FAVICON ===============-->
-        <link rel="shortcut icon" href="assets/img/profilpic.png" type="image/x-icon">
+        <!-- <link rel="shortcut icon" href="assets/img/profilpic.png" type="image/x-icon"> -->
 
         <!--=============== BOXICONS ===============-->
         <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
@@ -609,7 +609,7 @@
                     <div class="contact__content">
                         <h3 class="contact__title">Skriv En Besked</h3>
 
-                        <form action="" name="contact" class="contact__form" method="POST" data-netlify="true">
+                        <form name="contact" class="contact__form" method="POST" data-netlify="true">
                             <div class="contact__form-div">
                                 <label class="contact__form-tag">Navn</label>
                                 <input name="name" type="text" placeholder="Skriv dit navn" class="contact__form-input">
@@ -622,8 +622,9 @@
 
                             <div class="contact__form-div contact__form-area">
                                 <label class="contact__form-tag">Besked</label>
-                                <textarea type="text" name="message" cols="30" rows="10" placeholder="Skriv din besked" class="contact__form-input"></textarea>
+                                <textarea type="text" name="message" cols="30" rows="10" placeholder="Skriv din besked" class="contact__form-input"></textarea>                          
                             </div>
+                            <p class="contact__form-send">Eller send en mail på: Jeevithm@yahoo.dk</p>
                             <button type="submit" class="button">Send Besked</button>
                         </form>
                     </div>
