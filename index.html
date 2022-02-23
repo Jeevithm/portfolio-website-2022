@@ -609,7 +609,8 @@
                     <div class="contact__content">
                         <h3 class="contact__title">Skriv En Besked</h3>
 
-                        <form name="contact" class="contact__form" method="POST" data-netlify="true" onSubmit="submit">
+                        <form name="contact" class="contact__form" method="POST" data-netlify="true" onSubmit="submit" data-netlify-honeypot="bot-field">
+                            <input class="contact__form-botfield" name="bot-field">
                             <div class="contact__form-div">
                                 <label class="contact__form-tag">Navn</label>
                                 <input name="name" type="text" placeholder="Skriv dit navn" class="contact__form-input">

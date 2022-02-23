@@ -856,6 +856,11 @@ body.light-theme{
   font-size: var(--small-font-size);
   margin-bottom: 2rem;
 }
+
+.contact__form-botfield {
+  display: none;
+}
+
 /*=============== FOOTER ===============*/
 .footer{
   background-color: var(--first-color);
