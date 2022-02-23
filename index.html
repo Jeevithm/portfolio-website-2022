@@ -609,20 +609,20 @@
                     <div class="contact__content">
                         <h3 class="contact__title">Skriv En Besked</h3>
 
-                        <form action="" class="contact__form" method="POST" data-netlify="true">
+                        <form action="" name="contact" class="contact__form" method="POST" data-netlify="true">
                             <div class="contact__form-div">
                                 <label for="" class="contact__form-tag">Navn</label>
-                                <input type="text" placeholder="Skriv dit navn" class="contact__form-input">
+                                <input name="name" type="text" placeholder="Skriv dit navn" class="contact__form-input">
                             </div>
 
                             <div class="contact__form-div">
                                 <label for="" class="contact__form-tag">Mail</label>
-                                <input type="email" placeholder="Skriv din email" class="contact__form-input">
+                                <input name="email" type="email" placeholder="Skriv din email" class="contact__form-input">
                             </div>
 
                             <div class="contact__form-div contact__form-area">
                                 <label for="" class="contact__form-tag">Besked</label>
-                                <textarea type="submit" name="message" id="" cols="30" rows="10" placeholder="Skriv din besked" class="contact__form-input"></textarea>
+                                <textarea type="text" name="message" id="" cols="30" rows="10" placeholder="Skriv din besked" class="contact__form-input"></textarea>
                             </div>
                             <button type="submit" class="button">Send Besked</button>
                         </form>
